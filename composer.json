@@ -1,0 +1,21 @@
+{
+  "name": "mic2100/cart",
+  "description": "A simple shopping cart",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3",
+    "phpunit/phpunit": "^4.7"
+  },
+  "authors": [
+    {
+      "name": "Michael Bardsley",
+      "email": "me@mic-b.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mic2100\\Cart\\": "src/",
+      "Mic2100\\CartTest\\": "tests/"
+    }
+  }
+}
